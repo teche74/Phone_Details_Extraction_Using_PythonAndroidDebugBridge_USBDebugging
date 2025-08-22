@@ -716,7 +716,7 @@ class PhoneDataCollector:
         return trace
 
 class SaveData:
-    def __init__(self ,):
+    def __init__(self):
         self.file_location = "PhoneDataCollector/DataCollected/"
         os.makedirs(self.file_location, exist_ok=True)
 
